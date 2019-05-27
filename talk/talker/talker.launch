@@ -1,3 +1,4 @@
 <launch>
 	<node name="talker" pkg="talker" type="talker.py" output="screen"/>
+    <rosparam command="load" file="$(env RAPYUTA_PARAMS)/foo.yaml"/>
 </launch>
